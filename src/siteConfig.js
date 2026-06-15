@@ -61,3 +61,19 @@ export const SITE_CONFIG = {
     },
   ],
 };
+
+// ─── Color Palette (derived from logo) ───────────────────────
+export const C = {
+  darkGreen: "#0B5E28", // deep ring border
+  midGreen: "#1A9A50", // main logo green
+  lightGreen: "#4DC87A", // bright leaf green
+  blue: "#1A4FA3", // PRP badge blue
+  orange: "#E07820", // orange figure
+  bgLight: "#F3FCF6", // very pale green background
+  bgWhite: "#FDFFFE",
+  textDark: "#052B14",
+  textMid: "#2D6A4F",
+  textLight: "#52796F",
+  cream: "#E9F7EE",
+};
+
