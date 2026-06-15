@@ -22,12 +22,13 @@ export const SITE_CONFIG = {
   // ── Social Media Links ───────────────────────────────────
   // Leave the URL as "" to hide that icon from the website
   social: {
-    facebook: "https://facebook.com/paaraapitrust",
-    instagram: "https://instagram.com/paaraapitrust",
-    youtube: "https://youtube.com/@paaraapitrust",
-    twitter: "", // leave blank to hide
-    whatsapp: "https://wa.me/919876543210",
+    facebook: "", // leave blank to hide
+    instagram: "https://www.instagram.com/paaraapiviluthugal?utm_source=qr&igsh=MWw3YWwxNG5pdm1ncw==",
+    youtube: "https://youtube.com/@paaraapiviluthugal?si=NMfmGfXBU5fyto5-",
+    twitter: "https://x.com/paaraapi6802",
+    whatsapp: "", // leave blank to hide
     linkedin: "", // leave blank to hide
+    sharechat: "https://sharechat.com/profile/1959575888?d=n",
   },
 
   // ── Impact Numbers (Hero + Stats section) ───────────────
