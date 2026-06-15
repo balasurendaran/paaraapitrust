@@ -1,7 +1,8 @@
 import logoUrl from "./assets/paaraapi-logo.png";
 import { SITE_CONFIG, C } from "./siteConfig";
+import SocialLinks from "./SocialLinks";
 
-export default function Footer({ go, socialLinks }) {
+export default function Footer({ go }) {
   return (
     <footer style={{ background: C.textDark, padding: "52px 6% 28px" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
@@ -72,7 +73,7 @@ export default function Footer({ go, socialLinks }) {
               healthcare and creative opportunity since{" "}
               {SITE_CONFIG.foundedYear}.
             </p>
-            {socialLinks}
+            <SocialLinks variant='footer' />
           </div>
 
           {/* Quick Links */}
