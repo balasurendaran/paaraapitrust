@@ -127,7 +127,7 @@ export default function Footer({ go }) {
               Trust Info
             </div>
             {[
-              "Registered Trust · Tamil Nadu",
+              `Registered Trust (No: ${SITE_CONFIG.contact.regnNo})`,
               "80G Tax Exemption Applicable",
               "FCRA Registered",
               "Transparent Financials",

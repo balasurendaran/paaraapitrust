@@ -14,9 +14,10 @@ export const SITE_CONFIG = {
 
   // ── Contact ─────────────────────────────────────────────
   contact: {
-    address: "Chennai, Tamil Nadu, India",
-    phone: "+91 98765 43210",
-    email: "hello@paaraapitrust.com",
+    regnNo: "181/2023",
+    address: "Patteeshwarar Temple, Ok Backery Back Side, Perur, Coimbatore - 641010",
+    phone: ["7449072348", "7305572348"],
+    email: "Prptrust21@gmail.com",
   },
 
   // ── Social Media Links ───────────────────────────────────

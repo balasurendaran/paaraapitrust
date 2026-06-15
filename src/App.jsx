@@ -1397,7 +1397,7 @@ export default function PaarapiTrust() {
                 </p>
                 {[
                   { Icon: MapPin, text: SITE_CONFIG.contact.address },
-                  { Icon: Phone, text: SITE_CONFIG.contact.phone },
+                  { Icon: Phone, text: Array.isArray(SITE_CONFIG.contact.phone) ? SITE_CONFIG.contact.phone.join(" / ") : SITE_CONFIG.contact.phone },
                   { Icon: Mail, text: SITE_CONFIG.contact.email },
                 ].map(({ Icon, text }) => (
                   <div
