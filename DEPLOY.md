@@ -50,3 +50,18 @@ If you are using cPanel's built-in **Git Version Control** interface to manage y
    ```
 2. Commit and push [.cpanel.yml](file:///Users/suren/Documents/workspace/paaraapi-trust/.cpanel.yml) to your remote repository.
 3. In your cPanel interface under **Git Version Control**, link your repository and click **Deploy Head Commit** to trigger the deployment.
+
+---
+
+## Option 4: ZIP File Manual Upload (cPanel File Manager)
+If you want to manually upload a single ZIP file and extract it directly inside cPanel's File Manager:
+
+1. Generate the zip file from your terminal:
+   ```bash
+   npm run zip
+   ```
+2. This creates a file called `dist.zip` in your project root containing the production built files (including `.htaccess`) directly at the zip root level.
+3. Go to **cPanel > File Manager**, navigate to your target web directory (e.g., `public_html`), and click **Upload**.
+4. Upload `dist.zip`.
+5. Select `dist.zip` in the File Manager list and click **Extract** to deploy all files instantly.
+
